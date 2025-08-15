@@ -3,15 +3,15 @@
 
 
 
-# for i in range(1,11):
-#   print(i)
+for i in range(1,11):
+  print(i)
 
 # 2. Print even numbers from 2 to 20
 
 
 
-# for i in range(2 ,21 ,2):
-#   print(i)
+for i in range(2 ,21 ,2):
+  print(i)
 
 # 3. Print the squares of numbers from 1 to 5
 
@@ -27,9 +27,9 @@
  
 
 
-# word="Python" 
-# for i in range(len(word)):
-#   print(word[i]) 
+word="Python" 
+for i in range(len(word)):
+  print(word[i]) 
 
 # 5. Sum of numbers from 1 to 100
 res=0
