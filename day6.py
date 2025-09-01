@@ -120,7 +120,7 @@ else:
 # print(square(12))
 
 # Write a function that returns the cube of a number.
-def cube(number):
-    return number * number * number
-print(cube(36))
+# def cube(number):
+#     return number * number * number
+# print(cube(36))
 
