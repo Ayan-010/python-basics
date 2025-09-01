@@ -59,13 +59,13 @@ for i in range(len(fruits)):
 
 
 # 8. Reverse a string
-word =input("enter a word to reverse:") 
-reversedWord=""
-count=len(word)
-for i in range(count):
-  reversedWord=reversedWord + word[count -i -1]
-  print(reversedWord, i)
-print("reversed word is",reversedWord)
+# word =input("enter a word to reverse:") 
+# reversedWord=""
+# count=len(word)
+# for i in range(count):
+#   reversedWord=reversedWord + word[count -i -1]
+#   print(reversedWord, i)
+# print("reversed word is",reversedWord)
 
 
 
@@ -73,14 +73,25 @@ print("reversed word is",reversedWord)
 
 
 # 9. Find factorial of a number (e.g., 5)
-num=int(input("enter a number to cal fact:"))
-fact=1
-for i in range(1,num+1):
-  fact=fact * i
-print("factorial:",fact)
+# num=int(input("enter a number to cal fact:"))
+# fact=1
+# for i in range(1,num+1):
+#   fact=fact * i
+# print("factorial:",fact)
 
 
 # 10. Print stars pattern
-
+mark=int(input("enter a mark:"))
+marks=[12,23,24,17,35]
+found=False
+for i in range(len(marks)):
+  if marks[i] == mark:
+    found = True
+    print("number found")
+    #BREAK IS USED TO STOP LOOP BRFORE ITS ORIGINAL STOP
+    break
+  print('hello')
+if not found:
+  print("not found")
 
  
